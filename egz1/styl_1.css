@@ -28,6 +28,7 @@ width: 40%;
 main {
         background-color: #F6E5DC;
         display: flex;
+        flex-direction: column;
 }
 
 .bottom-section{
@@ -35,6 +36,7 @@ main {
     text-align: center;
     padding: 30px;
     width: 100%;
+    background-color: red;
 }
 footer{
     background-color: #2F180C;
@@ -50,7 +52,7 @@ button{
     background-color: #2F180C;
     color: khaki;
 }
-main{
- background-color: #F6E5DC;   
- display: block;
+
+.first {
+    display: flex;
 }
