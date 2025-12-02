@@ -17,21 +17,24 @@ height: 60px;
 }
 .left-section{
     width: 60%;
-    float: left;
+
 }
 .right-section{
     font-size: 150%;
     padding: 70px;
-    float: right;
+width: 40%;
+
 }
 main {
         background-color: #F6E5DC;
+        display: flex;
 }
 
 .bottom-section{
-    background-color: #D0B6A8;
+    /* background-color: #D0B6A8; */
     text-align: center;
     padding: 30px;
+    width: 100%;
 }
 footer{
     background-color: #2F180C;
@@ -49,4 +52,5 @@ button{
 }
 main{
  background-color: #F6E5DC;   
+ display: block;
 }
